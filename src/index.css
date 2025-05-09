@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-carbon-black text-white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-carbon-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-carbon-gray rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent-orange;
+}
